@@ -1,0 +1,25 @@
+How to run it
+=============
+
+Installation
+------------
+
+You need 'virtualenv' and 'pip' installed.
+From inside the project directory, run:
+
+virtualenv .venv/pmwg-demo
+source .venv/pmwg-demo/bin/activate
+pip install -r requirements.txt
+
+Run
+---
+
+To run the server, from the project directory:
+
+./websocket-server.py
+
+If you want to run the demo code that writes to a fake probe file, also run:
+
+./file-writer-demo.py
+
+Point your browser to localhost:8888
